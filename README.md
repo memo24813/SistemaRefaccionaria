@@ -62,7 +62,7 @@ Una vez realizado esto ahora volveremos a la terminal donde tenemos la direccion
 composer install
 php artisan key:generate
 php artisan migrate
-php artisan db:seed
+php artisan storage:link
 ```
 
 Una vez realizado todos esos comando nos deberia aparecer ningun error, ahora procederemos a ejecutar los siguientes comandos para las dependencias de node.
